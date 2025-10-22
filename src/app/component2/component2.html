@@ -1,0 +1,12 @@
+<div class="div">
+  <h1>Get and set Input field value</h1>
+  <input type="text" value="{{userName}}" (input)="getName($event)" placeholder="Enter Username">
+  <br>
+  <br>
+  <br>
+  <button (click)="handleClickEvent()">Get Value</button>
+  <button (click)="setName()">Set Name</button>
+</div>
+<div class="div">
+  <h1>You name is {{displayName}}</h1>
+</div>
