@@ -31,4 +31,16 @@ export class Login {
   handleDecrement() {
     this.value = (this.value - 1);
   }
+
+  handleButtonEvent(input:string) {
+    if (input === 'plus') {
+      this.value = (this.value + 1);
+    }
+    else if (input === 'minus') {
+      this.value = (this.value - 1);
+    }
+    else {
+      this .value = 0;
+    }
+  }
 }
