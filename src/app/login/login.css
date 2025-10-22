@@ -1,0 +1,26 @@
+.btn {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bg-red {
+  background-color: red;
+}
+.bg-black {
+  background-color: black;
+}
+.bg-green {
+  background-color: green;
+}
+
+.btn:hover {
+  border: 1px solid white;
+}
+
+.div {
+  text-align: center;
+}
