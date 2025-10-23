@@ -1,0 +1,13 @@
+.div{
+  text-align: center;
+}
+.innerDiv {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+.secondDiv{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}

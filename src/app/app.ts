@@ -2,10 +2,11 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {Login} from './login/login';
 import {Component2} from './component2/component2';
+import {IfElseComponent} from './if-else-component/if-else-component';
 
 @Component({
   selector: 'app-root',
-  imports: [Login, Component2,],
+  imports: [Login, Component2,IfElseComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
