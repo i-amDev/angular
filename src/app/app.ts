@@ -4,10 +4,11 @@ import {Login} from './login/login';
 import {Component2} from './component2/component2';
 import {IfElseComponent} from './if-else-component/if-else-component';
 import {SwitchComponent} from './switch-component/switch-component';
+import {ForLoopComponent} from './for-loop-component/for-loop-component';
 
 @Component({
   selector: 'app-root',
-  imports: [Login, Component2,IfElseComponent, SwitchComponent],
+  imports: [Login, Component2,IfElseComponent, SwitchComponent, ForLoopComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
