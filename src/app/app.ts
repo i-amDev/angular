@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {RouterLink, RouterOutlet} from '@angular/router';
 import {Login} from './login/login';
 import {Component2} from './component2/component2';
 import {IfElseComponent} from './if-else-component/if-else-component';
@@ -10,7 +10,9 @@ import {DirectivesComponent} from './directives-component/directives-component';
 
 @Component({
   selector: 'app-root',
-  imports: [Login, Component2,IfElseComponent, SwitchComponent, ForLoopComponent, TwoWayBindingComponent, DirectivesComponent],
+  imports: [Login, Component2,IfElseComponent, SwitchComponent,
+    ForLoopComponent, TwoWayBindingComponent, DirectivesComponent,
+  RouterLink, RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
