@@ -10,9 +10,7 @@ import {DirectivesComponent} from './directives-component/directives-component';
 
 @Component({
   selector: 'app-root',
-  imports: [Login, Component2,IfElseComponent, SwitchComponent,
-    ForLoopComponent, TwoWayBindingComponent, DirectivesComponent,
-  RouterLink, RouterOutlet],
+  imports: [ RouterLink, RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
